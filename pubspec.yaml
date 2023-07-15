@@ -1,5 +1,6 @@
 name: cristri_dana
-description: A new Flutter project.
+title: The Wedding Of Cristri & Dana
+description: Kamis, 27 Juli 2023
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -35,6 +36,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  url_launcher: ^6.0.9
+  cloud_firestore: ^4.5.3
+  logging: ^1.1.1
+  firebase_core: ^2.10.0
+  just_audio: ^0.9.34
+  draggable_fab: ^0.1.4
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +59,62 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - lib/assets/images/logo.png
+    - lib/assets/images/logo2.png
+    - lib/assets/images/komang.JPG
+    - lib/assets/images/putu.JPG
+    - lib/assets/images/bca.png
+    - lib/assets/images/01.jpg
+    - lib/assets/images/03.jpg
+    - lib/assets/images/20.jpg
+    - lib/assets/images/08.jpg
+    - lib/assets/images/19.jpg
+    - lib/assets/images/21.jpg
+    - lib/assets/images/22.jpg
+    - lib/assets/images/1.jpg
+    - lib/assets/images/2.jpg
+    - lib/assets/images/3.jpg
+    - lib/assets/images/4.jpg
+
+  fonts:
+    - family: JosefinSans
+      fonts:
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-Bold.ttf
+          weight: 700
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-ExtraLight.ttf
+          weight: 200
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-Light.ttf
+          weight: 300
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-Medium.ttf
+          weight: 500
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-Regular.ttf
+          weight: 400
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-SemiBold.ttf
+          weight: 600
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-Thin.ttf
+          weight: 100
+        - asset: lib/assets/fonts/JosefinSans/JosefinSans-ThinItalic.ttf
+          weight: 100
+          style: italic
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
