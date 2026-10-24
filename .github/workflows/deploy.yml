@@ -3,7 +3,7 @@ name: Deploy Flutter Web to GitHub Pages
 on:
   push:
     branches:
-      - main # Ubah ke 'master' jika nama branch utama kamu master
+      - master
 
 permissions:
   contents: write
